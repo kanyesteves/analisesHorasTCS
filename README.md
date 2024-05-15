@@ -4,6 +4,8 @@
 Este documento vai apresentar algumas análises obtidas do projeto.
 
 ## Gráficos
+Data da análise: 10/05/24
 
 - Horas trabalhadas por estudante.
-- - Horas trabalhadas por mês.
+
+- Horas trabalhadas por mês.
