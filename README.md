@@ -3,6 +3,12 @@
 ## Introdução
 Este documento vai apresentar algumas análises obtidas do projeto.
 
+## Requisitos para análises
+
+- Python3, linguagem de programação.
+- Pip3, gerenciador de pacotes utilizados no Python.
+- Jupyter lab, ambiente para criação de notebooks para análises de dados.
+
 ## Gráficos
 Data da análise: 10/05/24
 
