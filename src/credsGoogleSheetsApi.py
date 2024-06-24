@@ -7,11 +7,10 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 
 class ConnectGoogleSheetsApi():
     def __init__(self):
-        self.creds = ""
+        self.creds = None
         self.SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
     def connect(self):
-        self.creds = None
         if os.path.exists("token.json"):
             self.creds = Credentials.from_authorized_user_file("token.json", self.SCOPES)
 
