@@ -1,4 +1,5 @@
 apontamentoVenv/
 .ipynb_checkpoints/
+__pycache__/
 credentials.json
 token.json
