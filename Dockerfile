@@ -1,9 +1,11 @@
-FROM python:slim-bookworm
+FROM python:3.12-slim
 
 WORKDIR /app
+
+COPY requirements.txt requirements.txt
+COPY src/ src/
 
 COPY . /app 
 RUN pip install --no-cache-dir -r requirements.txt
 
-EXPOSE 8001
-CMD ["streamlit", "run", "--server.port", "8001", "src/main.py"]
+CMD ["streamlit", "run", "src/main.py"]
