@@ -19,3 +19,9 @@ Data da análise: 10/05/24
 - Horas trabalhadas por mês.
 
 ![Gráfico por mes](https://github.com/kanyesteves/analisesHorasTCS/blob/main/assets/graphsMonths.png)
+
+## Dashboard - BI
+
+- Link do BI hospedada no Google Cloud Plataform (GCP)
+
+https://analiseshorastcs-kqvhjyyctq-uc.a.run.app/
