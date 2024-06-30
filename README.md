@@ -9,19 +9,26 @@ Este documento vai apresentar algumas análises obtidas do projeto.
 - Pip3, gerenciador de pacotes utilizados no Python.
 - Jupyter lab, ambiente para criação de notebooks para análises de dados.
 
-## Gráficos
-Data da análise: 10/05/24
+## Análises
 
-- Horas trabalhadas por estudante.
+O arquivo contém as seguintes colunas:
 
-![Gráfico por estudante](https://github.com/kanyesteves/analisesHorasTCS/blob/main/assets/graphsStudents.png)
+- Carimbo de data/hora: Data e hora do registro.
+- Estudante: Nome do estudante.
+- Horas trabalhadas no TCS: Número de horas trabalhadas.
+- Link da tarefa: Link para a tarefa específica.
+- No que trabalhou?: Descrição da atividade realizada.
+- Total de horas: Valor acumulado de horas (esta coluna parece conter muitos valores NaN e pode não ser relevante para a análise específica que você pediu). 
 
-- Horas trabalhadas por mês.
+## Insights que BI fornece do projeto
 
-![Gráfico por mes](https://github.com/kanyesteves/analisesHorasTCS/blob/main/assets/graphsMonths.png)
+- Total de horas trabalhadas.
+- Quantidade de horas por estudante.
+- Atividades em que as horas foram gastas.
+- Quantidade de horas por mês. ​
 
 ## Dashboard - BI
 
-- Link do BI hospedada no Google Cloud Plataform (GCP)
+Link do BI hospedado no Google Cloud Plataform (GCP)
 
-https://analiseshorastcs-kqvhjyyctq-uc.a.run.app/
+- link: https://analiseshorastcs-kqvhjyyctq-uc.a.run.app/
