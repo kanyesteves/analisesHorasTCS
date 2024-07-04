@@ -14,12 +14,12 @@ class ConnectGoogleSheetsApi():
         if os.path.exists("token.json"):
             self.creds = Credentials.from_authorized_user_file("token.json", self.SCOPES)
 
-        if not self.creds or not self.creds.valid:
+        if not self.creds or not self.creds.valid or self.creds is None:
             if self.creds and self.creds.expired and self.creds.refresh_token:
                 self.creds.refresh(Request())
             else:
                 flow = InstalledAppFlow.from_client_secrets_file("credentials.json", self.SCOPES)
-                self.creds = flow.run_local_server(port=8501)
+                self.creds = flow.run_local_server(port=0)
                 
             with open("token.json", "w") as token:
                 token.write(self.creds.to_json())
